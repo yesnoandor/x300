@@ -1,0 +1,5 @@
+config FLEETY_SPIDER
+	tristate "The Fleety Spider Driver"
+	default n
+	help
+	  This is the monitor driver for fleety.

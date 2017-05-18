@@ -1,0 +1,13 @@
+menuconfig FLEETY_DRIVERS
+	bool "Fleety Drivers"
+	default n
+	---help---
+	  This option allows you to select a number of drivers that fleety.
+
+if FLEETY_DRIVERS
+
+source "drivers/fleety/spider/Kconfig"
+source "drivers/fleety/leds/Kconfig"
+source "drivers/fleety/keys/Kconfig"
+
+endif # FLEETY_DRIVERS

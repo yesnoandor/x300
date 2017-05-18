@@ -1,0 +1,5 @@
+config FLEETY_KEYS
+	tristate "The Fleety Keys Driver"
+	default n
+	help
+	  This is the key(gpio) driver.

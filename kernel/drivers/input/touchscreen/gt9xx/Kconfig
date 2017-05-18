@@ -1,0 +1,5 @@
+config TOUCHSCREEN_GT9XX
+	tristate "GT9xx touchscreens support."
+	default y
+	help
+	  This is the touchscreen driver for fleety.

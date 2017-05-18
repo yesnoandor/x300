@@ -1,0 +1,1 @@
+cmd_procps/lib.a := rm -f procps/lib.a; arm-linux-androideabi-ar  rcs procps/lib.a procps/fuser.o procps/iostat.o procps/lsof.o procps/mpstat.o procps/nmeter.o procps/pidof.o procps/pmap.o procps/powertop.o procps/pstree.o procps/pwdx.o procps/renice.o procps/smemcap.o procps/sysctl.o procps/top.o procps/watch.o
